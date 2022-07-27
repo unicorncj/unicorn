@@ -5,35 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>J的个人网站</title>
     <style>  
-      body {
+      *{
         margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+      }
+      .header,.nav,.container,.footer{
+        float: left;
+        width: 100%;
+      }
+      .header{
+        background: rgb(0,127,255);
+        padding: 20px;
+        text-align: center
+      }
+      .nav{
+        background: rgb(2,46,106);
+        padding: 10px;
+        width: 788px
+      }
+      .nav a{
+        color: #fff;
+        padding: 10px 20px;
+        text-align: inline-block;
+      }
+      .nav a:hover{
+        background: #bbb;
+        coloc: #000;
+      }
+      .container{
+        background-images: url('https://pic1.zhimg.com/80/v2-072289dccc03aabd092273cb930dff34_720w.jpg?source=1940ef5c')
+        background-repeat: repeat-x;
+      }
+      .lside{
+        wdith: 200px;
+        float: left;
+      }
+      .rside{
+        wdith: 200px;
+        float: right;
+      }
+      .content{
+        margin: 0px 205px;
+      }
+      .lside,.rside,.content{
+        padding: 5px;
       }
     </style>
   </head>
-  <body stlye="margin: 0;">
-    <div style="
-      background-color: pink;
-      width: 50px;
-      height: 500px;
-      text-align:center;
-      padding:50px">
-      <img alt="czj" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.2qqtouxiang.com%2Fpic%2FTP9800_05.jpg&refer=http%3A%2F%2Fimg.2qqtouxiang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1660396341&t=62c89b990f65d5dce3d4e4e4c9c17a36"width="150px";hight="150px">
+  <body>
+    <div class="main">
+      <div class="header">
+        <img alt="J" src="https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2022%2F0719%2F9a883a00j00rf9odw000jd200j600j6g00j600j6.jpg&thumbnail=660x2147483647&quality=80&type=jpg"width="50px";hight="50px">
+        <img alt="卡普" src="https://imgo.minixiazai.com/img2021/8/30/14/2021083048995885.jpg"width="50px";hight="50px">
+        <p>个人网站</p>
+      </div>
+      <div class="nav">
+        <a href="#">目录</a>
+        <a href="#">J的个人简历</a>
+        <a href="#">卡普的个人简历</a>
+      </div>
+      <div class="container">
+        <div class="lside">
+        <h2></h2>
+        </div>
+        <div class="rside">
+        
+        </div>
+        <div clss="content"></div>
+      </div>
     </div>
-    <div style="
-     background-color: rgb(0,100,200);
-     max-width: 800px;
-     margin: 10px auto;
-     padding: 50px;
-     line-height: 1.7;
-     ">
-      <p></p>
-    </div>
-    <div style="
-      background-color: rgb(0,150,500);
-      text-align:center;
-      padding:50px;
-      font-size: 12px:">
-      <p>版权所有:J</p>
-      <a href="https://unicorncj.github.io/unicorn/">刷新网站</p>
   </body>
 </html>
+
